@@ -34,7 +34,7 @@ configure env
 
 
 # CMS Storage
-<div
+<div>
 MEDIA_LIBRARY_ENDPOINT_TYPE=local
 MEDIA_LIBRARY_IMAGE_SERVICE=A17\Twill\Services\MediaLibrary\Glide
 MEDIA_LIBRARY_LOCAL_PATH=uploads/
