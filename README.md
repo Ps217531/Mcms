@@ -28,21 +28,46 @@
 <p>latest version<p>
 <li>composer require area17/twill</li>
 configure env
-<h1>install twill</h1>
+<h3>install twill</h3>
 <li>php artisan twill:install</li>
 <i>your email and password</i>
 <h2>conifure env</h2>
 
 
 ### CMS Storage
+
+<div>
+APP_URL=http://127.0.0.1:8000
+ADMIN_APP_URL=127.0.0.1
+ADMIN_APP_PATH=admin
+</div>
+
+
+### databases
+
+#### mysql
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=mcms
+DB_USERNAME=root
+DB_PASSWORD=
+#### Sqlite
+<div>
+DB_CONNECTION=sqlite
+DB_DATABASE=database.sqlite
+DB_FOREIGN_KEYS=true
+</div>
 <div>
 MEDIA_LIBRARY_ENDPOINT_TYPE=local <br>
 MEDIA_LIBRARY_IMAGE_SERVICE=A17\Twill\Services\MediaLibrary\Glide <br>
 MEDIA_LIBRARY_LOCAL_PATH=uploads/ <br>
 MEDIA_LIBRARY_CASCADE_DELETE=true <br>
 FILE_LIBRARY_ENDPOINT_TYPE=local <br>
-FILE_LIBRARY_LOCAL_PATH=uploads/ <br>
+FILE_LIBRARY_LOCAL_PATH=uploads/ <br> 
 </div>
+
+
 
 
 
