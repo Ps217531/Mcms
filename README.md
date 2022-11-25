@@ -30,6 +30,20 @@ configure env
 <h1>install twill</h1>
 <li>php artisan twill:install</li>
 <i>your email and password</i>
+<h2>conifure env</h2>
+
+
+# CMS Storage
+<div
+MEDIA_LIBRARY_ENDPOINT_TYPE=local
+MEDIA_LIBRARY_IMAGE_SERVICE=A17\Twill\Services\MediaLibrary\Glide
+MEDIA_LIBRARY_LOCAL_PATH=uploads/
+MEDIA_LIBRARY_CASCADE_DELETE=true
+FILE_LIBRARY_ENDPOINT_TYPE=local
+FILE_LIBRARY_LOCAL_PATH=uploads/
+</div>
+
+
 
 
 
