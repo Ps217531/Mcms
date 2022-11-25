@@ -11,3 +11,14 @@
 
 <li>laravel new Mcms<li>
 
+## bootstrap
+<li>laravel new Mcms</li>
+<li>composer require laravel/ui</li>
+<li>php artisan ui bootstrap</li> # to install the auth scaffoldings line 3 instead
+<li>php artisan ui bootstrap --auth</li>
+add this line to: resources\sass\app.scss
+@import '~bootstrap-icons/font/bootstrap-icons';
+<li>npm install bootstrap@latest bootstrap-icons @popperjs/core --save-dev</li>
+<li>npm install</li>
+<li>npm run dev</li>
+
