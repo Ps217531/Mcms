@@ -7,11 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## commandos
+# Installation
 
-<li>laravel new Mcms<li>
+<li>laravel new Mcms</li>
 <p>cd Mcms</p>
-## bootstrap
+
+## Bootstrap
 <li>composer require laravel/ui</li>
 <li>php artisan ui bootstrap</li>
 <li>php artisan ui bootstrap --auth</li>
@@ -33,7 +34,7 @@ configure env
 <h2>conifure env</h2>
 
 
-# CMS Storage
+### CMS Storage
 <div>
 MEDIA_LIBRARY_ENDPOINT_TYPE=local <br>
 MEDIA_LIBRARY_IMAGE_SERVICE=A17\Twill\Services\MediaLibrary\Glide <br>
@@ -42,6 +43,8 @@ MEDIA_LIBRARY_CASCADE_DELETE=true <br>
 FILE_LIBRARY_ENDPOINT_TYPE=local <br>
 FILE_LIBRARY_LOCAL_PATH=uploads/ <br>
 </div>
+
+
 
 
 
