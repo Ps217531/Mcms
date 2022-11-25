@@ -34,12 +34,12 @@ configure env
 <h2>conifure env</h2>
 
 
-### CMS Storage
+
 
 <div>
-APP_URL=http://127.0.0.1:8000
-ADMIN_APP_URL=127.0.0.1
-ADMIN_APP_PATH=admin
+APP_URL=http://127.0.0.1:8000 <br>
+ADMIN_APP_URL=127.0.0.1 <br>
+ADMIN_APP_PATH=admin <br>
 </div>
 
 
@@ -58,6 +58,8 @@ DB_CONNECTION=sqlite
 DB_DATABASE=database.sqlite
 DB_FOREIGN_KEYS=true
 </div>
+
+#### CMS Storage
 <div>
 MEDIA_LIBRARY_ENDPOINT_TYPE=local <br>
 MEDIA_LIBRARY_IMAGE_SERVICE=A17\Twill\Services\MediaLibrary\Glide <br>
