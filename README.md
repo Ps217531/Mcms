@@ -10,9 +10,8 @@
 ## commandos
 
 <li>laravel new Mcms<li>
-
+<p>cd Mcms</p>
 ## bootstrap
-<li>laravel new Mcms</li>
 <li>composer require laravel/ui</li>
 <li>php artisan ui bootstrap</li>
 <li>php artisan ui bootstrap --auth</li>
@@ -28,7 +27,9 @@
 <p>latest version<p>
 <li>composer require area17/twill</li>
 configure env
-<p>install twill</p>
+<h1>install twill</h1>
 <li>php artisan twill:install</li>
 <i>your email and password</i>
+
+
 
